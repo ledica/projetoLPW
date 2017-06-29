@@ -10,7 +10,7 @@
 <div class="mdl-grid">
 	<div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col">
 		<div class="mdl-card__title">
-			<h2 class="mdl-card__title-text">Nome: {{$post->title}}</h2>
+			<h2 class="mdl-card__title-text">{{$post->title}}</h2>
 		</div>
 		<div class="mdl-card__supporting-text">
 			<p>{{$post->content}}</p>
